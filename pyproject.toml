@@ -1,0 +1,14 @@
+[project]
+name = "deeplscience"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "albumentations>=2.0.6",
+    "datasets>=3.6.0",
+    "gradio>=5.29.0",
+    "jupyter>=1.1.1",
+    "lightning>=2.5.1.post0",
+    "wandb>=0.19.11",
+]
